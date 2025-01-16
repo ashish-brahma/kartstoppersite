@@ -1,0 +1,56 @@
+.navbar {
+  background-color: #9EC8B9;
+  padding: 5rem 6rem 5rem 6rem;
+}
+
+.bi {
+  font-size: 48px;
+}
+
+.bi-github {
+  color: #277978;
+}
+
+.bi-github:hover {
+  color: #096568;
+}
+
+.nav-link:not(.ext-link):hover {
+  color: #1E1E1E !important;
+}
+
+.nav-link.active, .nav-link.active:hover {
+  color: #F9F9F9 !important;
+  background-color: #096568 !important;
+  border-radius: 8.45px;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
