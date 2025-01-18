@@ -41,12 +41,14 @@
   border-radius: 8.45px;
 }
 
-/* HERO */
+/* MAIN */
 
+/* Small devices */
 #hero {
   max-height: 100%;
-  height: 1430px;
+  height: 182vh;
   width: 100%;
+  margin-top: 3rem;
   position: relative;
   background: url('../content/hero-sm.png') no-repeat top / contain, 
               url('../content/mockscreen-sm.png') no-repeat center / contain,
@@ -59,10 +61,10 @@ h1 {
   width: 50vw;
   position: absolute;
   text-transform: uppercase;
-  letter-spacing: 16px;
+  letter-spacing: 4vw;
   line-height: 170%;
-  padding: 6rem 2rem 4rem 2rem;
-  margin: -64rem 0 0 0;
+  padding: 22vh 2rem 14vh 2rem;
+  margin-top: -132vh;
 }
 
 h2 {
@@ -74,12 +76,30 @@ h3 {
   font-size: 32px;
 }
 
-#desc .container > div {
+#desc {
+  gap: 10rem;
+  margin-top: -28rem;
+}
+
+#desc > div {
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* Extra-small devices */
+@media all and (max-width: 320px) {
+  #hero {
+    height: 264vh;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-top: -56rem;
+  }
+}
+
+/* Medium devices */
 @media all and (min-width: 576px) {
   .navbar{
     padding: 5rem 6rem 5rem 6rem;
@@ -90,51 +110,131 @@ h3 {
   }
   
   #hero {
-      height: 682px;
+      height: 64vh;
       background: url('../content/hero-md.png') no-repeat 0% -14% / contain, 
                 url('../content/freeform_bg.svg') no-repeat 5% -5% / cover;
   }
 
   h1 {
-    font-size: 48px;
+    font-size: 4.8vw;
     letter-spacing: 20px;
-    padding: 56rem 4rem 4rem 4rem;
+    padding: 72vh 4rem 6vh 4rem;
+    margin-top: -84vh;
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 4.2vw;
   }
 
   h3 {
-    font-size: 42px;
+    font-size: 3.6vw;
   }
 
   #desc {
-    margin: -14rem 0 0 0;
+    gap: 4rem;
+    margin-top: -12rem;
   }
 
-  #desc .container div:first-child {
-    width: 80vw;
+  #desc div:first-child {
+    width: 60vw;
   }
 
-  #desc .container div:nth-child(2) {
-    margin-top: -5rem;
-    margin-left: 2.5rem;
+  #desc div:nth-child(2) {
+    width: 64vw;
+    margin-top: -10vh;
+    margin-left: 20vw;
+  }
+}
+
+@media all and (min-width: 768px) {
+  #hero {
+      height: 68vh;
+  }
+
+  h1 {
+    font-size: 5vw;
+    letter-spacing: 20px;
+    padding: 72vh 4rem 12vh 4rem;
+    margin-top: -78vh;
+  }
+
+  #desc {
+    gap: 4rem;
+    margin-top: -14rem;
+  }
+
+  #desc div:first-child {
+    width: 60vw;
+  }
+
+  #desc div:nth-child(2) {
+    width: 82vw;
+    margin-left: 18vw;
+  }
+}
+
+@media all and (min-width: 850px) {
+   #hero {
+      height: 76vh;
+  }
+
+  h1 {
+    font-size: 6vw;
+    letter-spacing: 20px;
+    padding: 68vh 4rem 12vh 4rem;
+  }
+
+  #desc {
+    gap: 4rem;
+    margin-top: -14rem;
+  }
+
+  #desc div:first-child {
+    width: 60vw;
+  }
+
+  #desc div:nth-child(2) {
+    width: 82vw;
+    margin-left: 18vw;
+  }
+}
+
+/* Large devices */
+
+@media all and (min-width: 992px) {
+  h1 {
+    font-size: 6vw;
+    letter-spacing: 20px;
+    padding: 84vh 4rem 12vh 4rem;
+  }
+
+  #desc {
+    gap: 4rem;
+    margin-top: 0;
+  }
+
+  #desc div:first-child {
+    width: 60vw;
+  }
+
+  #desc div:nth-child(2) {
+    width: 82vw;
+    margin-left: 18vw;
   }
 }
 
 @media all and (min-width: 1200px) {
   #hero {
-    height: 1337px;
+    height: 132vh;
     background: url('../content/hero-lg.png') no-repeat top / 90%, 
                 url('../content/freeform_bg.svg') no-repeat center / cover;
   }
 
   h1 {
-    font-size: 72px;
+    font-size: 4.8vw;
     width: 200px;
-    letter-spacing: 24px;
-    padding: 10rem 0 24rem 12rem;
+    letter-spacing: 2vw;
+    padding: 14vh 0 38vh 10rem;
     margin: 0;
   }
 
@@ -147,18 +247,89 @@ h3 {
   }
 
   #desc {
-    margin: -20rem 0 0 -10rem;
+    margin: -36vh 0 0 -14vh;
   }
 
-  #desc .container div:first-child {
+  #desc div:first-child {
     width: 50vw;
   }
 
-  #desc .container div:nth-child(2) {
-    margin-left: 20vw;
+  #desc div:nth-child(2) {
+    margin-left: 30vw;
     width: 80vw;
   }
+}
 
+/* Extra-large devices */
+@media all and (min-width: 1500px) {
+  #hero {
+    height: 160vh;
+    margin-top: 2vh;
+  }
+
+  h1 {
+    font-size: 5vw;
+    width: 200px;
+    letter-spacing: 2vw;
+    padding: 20vh 0 40vh 20vh;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  h3 {
+    font-size: 3vw;
+  }
+
+  #desc {
+    margin: -40vh 0 0 -12vh;
+  }
+
+  #desc div:first-child {
+    width: 48vw;
+  }
+
+  #desc div:nth-child(2) {
+    margin-left: 30vw;
+    width: 60vw;
+  }
+}
+
+@media all and (min-width: 1800px) {
+  #hero {
+    height: 200vh;
+    margin-top: 4vh;
+  }
+
+  h1 {
+    font-size: 5vw;
+    width: 200px;
+    letter-spacing: 2vw;
+    padding: 20vh 0 40vh 20vh;
+    margin-top: -20vh;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  h3 {
+    font-size: 3vw;
+  }
+
+  #desc {
+    margin: -50vh 0 0 -12vh;
+  }
+
+  #desc div:first-child {
+    width: 48vw;
+  }
+
+  #desc div:nth-child(2) {
+    margin-left: 28.5vw;
+    width: 70vw;
+  }
 }
 
 /* FONTS */
