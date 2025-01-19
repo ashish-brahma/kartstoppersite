@@ -92,17 +92,19 @@ h3 {
 }
 
 #stats {
-  margin: 3vh;
+  margin: 3vw;
+  padding: 10vw;
 }
 
 #stats h2 {
-  padding: 1vh;
+  padding: 2vh;
 }
 
 #stats p {
   width: 12rem;
   padding: 0.45rem;
-  margin-top: -3vh;
+  margin-top: -2.8vh;
+  margin-bottom: 4vh;
   margin-left: auto;
   margin-right: auto;
   color: var(--bs-secondary);
@@ -110,11 +112,20 @@ h3 {
 
 #cta {
   background-color: #D5E9E2;
+  padding: 4vw;
+}
+
+#cta div:first-child {
+  margin: 5vw;
+}
+
+#cta div:nth-child(2) {
+  margin: 4vw;
 }
 
 #cta p {
-  padding: 1vw;
-  margin-top: 2vh;
+  margin-top: 1rem;
+  padding: 2vw;
 }
 
 /* Extra-small devices */
@@ -141,7 +152,7 @@ h3 {
   
   #hero {
       height: 64vh;
-      background: url('../content/hero-md.png') no-repeat 0% -14% / contain, 
+      background: url('../content/hero-md.png') no-repeat top / contain, 
                 url('../content/freeform_bg.svg') no-repeat 5% -5% / cover;
   }
 
@@ -174,11 +185,16 @@ h3 {
     margin-top: -10vh;
     margin-left: 20vw;
   }
+
+  #cta p {
+    margin-top: 0;
+  }
 }
 
 @media all and (min-width: 768px) {
   #hero {
       height: 68vh;
+      background-position: 0% 20%;
   }
 
   h1 {
@@ -201,17 +217,26 @@ h3 {
     width: 82vw;
     margin-left: 18vw;
   }
+
+  #stats {
+    padding: 5vw;
+  }
+
+  #cta div:first-child {
+    margin: 2vw;
+  }
 }
 
 @media all and (min-width: 850px) {
    #hero {
       height: 76vh;
+      background-position: 0% 30%;
   }
 
   h1 {
     font-size: 6vw;
     letter-spacing: 20px;
-    padding: 68vh 4rem 12vh 4rem;
+    padding: 76vh 4rem 12vh 4rem;
   }
 
   #desc {
@@ -232,6 +257,11 @@ h3 {
 /* Large devices */
 
 @media all and (min-width: 992px) {
+  #hero {
+      height: 120vh;
+      background-position: 0% 40%;
+  }
+
   h1 {
     font-size: 6vw;
     letter-spacing: 20px;
@@ -240,7 +270,6 @@ h3 {
 
   #desc {
     gap: 4rem;
-    margin-top: 0;
   }
 
   #desc div:first-child {

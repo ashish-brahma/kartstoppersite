@@ -37,7 +37,7 @@
 	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">
-				<img src="content/title.svg">
+				<img src="content/title.svg" class="img-fluid">
 			</a>
 			<div id="navbarNav">
 				<ul class="navbar-nav align-items-center">
@@ -70,19 +70,35 @@
 				<h3 class="poppins-medium">Coming soon only on the App Store.</h3>
 			</div>
 		</div>
-		<div id="waitlist">
+		<div id="waitlist" class="container-fluid">
 			<div class="row">
 				<div id="stats" class="col col-lg-3 flex-fill justify-content-center">
-					<h2 class="count text-center"></h2>
+					<h2 class="text-center"></h2>
 					<p class="text-center">people have already signed up and counting*</p>
-					<small style='color:var(--bs-gray-600);'>* For illustration purpose. Shall be updated with actual data soon.</small>
+					<small style='color:var(--bs-gray-600);'>* For illustration purposes only. Shall be updated with actual data soon.</small>
 				</div>
 				<div id="cta" class="col col-lg-8">
-					<p>Pre-order on the app store now. We’ll notify you when we launch.</p>
+					<div class="row justify-content-center">
+						<div class="col-8 col-md-3 col-lg-3">
+							<img src="content/li-qrcode.svg" class="img-fluid">
+						</div>
+						<div class="col-8 col-md-2 col-lg-2">
+							<img src="content/KS_V5.png" class="img-fluid">
+						</div>
+						<div class="col-10 col-md-4 col-lg-4">
+							<p>Get the latest updates on App Store pre-orders rolling out soon!</p>
+							<p>Scan the QR code to follow our LinkedIn page.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+	<footer>
+		
+	</footer>
 
 	<!-- Load internal scripts -->
 	<script src="scripts/main.js"></script>
