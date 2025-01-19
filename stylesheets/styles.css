@@ -128,6 +128,25 @@ h3 {
   padding: 2vw;
 }
 
+footer {
+  color: #D2E9EA;
+  background-color: #096568;
+}
+
+h5, .icon-bar a {
+  color: #F7E6BA;
+}
+
+.icon-bar {
+  margin: 1vw;
+}
+
+footer .nav-link {
+  color: var(--bs-light);
+  --bs-nav-link-color: var(--bs-gray-300);
+  --bs-nav-link-hover-color: var(--bs-gray-200);
+}
+
 /* Extra-small devices */
 @media all and (max-width: 320px) {
   #hero {
