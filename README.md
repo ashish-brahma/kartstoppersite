@@ -1,7 +1,7 @@
 # KartStopper Landing Page
 
  ![website status](https://img.shields.io/website?url=https%3A%2F%2Fashish-brahma.github.io%2Fkartstoppersite%2F)
- [![License Badge](https://img.shields.io/github/license/ashish-brahma/kartstoppersite)](https://github.com/ashish-brahma/kartstoppersite?tab=MIT-1-ov-file#)
+ [![License Badge](https://img.shields.io/github/license/ashish-brahma/kartstoppersite)](tab=MIT-1-ov-file)
 
 KartStopper is a one-stop solution for buyers looking to make informed choices before shopping their daily needs. It improves spending habits of people.
 
