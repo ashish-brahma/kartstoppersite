@@ -24,10 +24,6 @@ KartStopper is a one-stop solution for buyers looking to make informed choices b
                 url('../content/freeform_bg.svg') no-repeat center / cover;
   }
   ">
-  <h1 class="poppins-black">
-    <span style='color: #0F0F0F;'>Flaunt your</span> 
-    <span style='color: #FFFFFF;'>shopping list</span>
-  </h1>
 </div>
 
 <!-- 
