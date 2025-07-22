@@ -1,4 +1,6 @@
-# KartStopperSite
+# KartStopper Landing Page
+
+![website status](https://img.shields.io/website?url=https%3A%2F%2Fashish-brahma.github.io%2Fkartstoppersite%2F)
 
 KartStopper is a one-stop solution for buyers looking to make informed choices before shopping their daily needs. It improves spending habits of people.
 
