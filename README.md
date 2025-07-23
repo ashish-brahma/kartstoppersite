@@ -1,5 +1,5 @@
   ![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fashish-brahma.github.io%2Fkartstoppersite%2F)
-  &nbsp; ![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fashish-brahma.github.io%2Fkartstoppersite%2F)
+  &nbsp; ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fashish-brahma.github.io%2Fkartstoppersite%2F)
   &nbsp; ![Last Commit](https://img.shields.io/github/last-commit/ashish-brahma/kartstoppersite)
   &nbsp; [![License Badge](https://img.shields.io/github/license/ashish-brahma/kartstoppersite)](https://github.com/ashish-brahma/kartstoppersite?tab=MIT-1-ov-file#)
   &nbsp; [![Social Badge](https://img.shields.io/badge/LinkedIn-Follow_us-blue?style=social&labelColor=black&color=%230969da)](https://www.linkedin.com/company/kartstopper/)
