@@ -22,7 +22,7 @@ Below items are work in progress-
 
 ## Contribution
 
-Contributions are welcome. Please get in touch with **(@ashish-brahma)[https://github.com/ashish-brahma]** to discuss further.
+Contributions are welcome. Please get in touch with **(Ashish Brahma)[https://github.com/ashish-brahma]** to discuss further.
 
 ## License
 
