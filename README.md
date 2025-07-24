@@ -26,4 +26,4 @@ Contributions are welcome. Please get in touch with @ashish-brahma to discuss fu
 
 ## License
 
-Please refer the ![License](LICENSE.md) for details.
+Please refer the ![License](../LICENSE.md) for details.
