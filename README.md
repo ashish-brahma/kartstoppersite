@@ -11,7 +11,8 @@ KartStopper is a one-stop solution for buyers looking to make informed choices b
   <source media="(min-width: 1200px)" srcset="content/hero-lg.png">
   <source media="(min-width: 576px)" srcset="content/hero-md.png">
   <img src="content/mockscreen-sm.png" alt="Hero image displaying the app mockup on an iPhone 15 with a red tag image streching across the entire background width.">
-</picture>
+</picture> 
+<br/><br/>
 
 ## TODO
 
@@ -19,10 +20,12 @@ Below items are work in progress-
   - Support page
   - Footer references(about page, policies, contact)
   - Number of signups
+<br/><br/>
 
 ## Contribution
 
 Contributions are welcome. Please get in touch with [@ashish-brahma](https://github.com/ashish-brahma) to discuss further.
+<br/><br/>
 
 ## License
 
