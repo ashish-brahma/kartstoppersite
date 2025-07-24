@@ -12,7 +12,6 @@ KartStopper is a one-stop solution for buyers looking to make informed choices b
   <source media="(min-width: 576px)" srcset="content/hero-md.png">
   <img src="content/mockscreen-sm.png" alt="Hero image displaying the app mockup on an iPhone 15 with a red tag image streching across the entire background width.">
 </picture> 
-<br/><br/>
 
 ## TODO
 
