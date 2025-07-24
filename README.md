@@ -6,10 +6,24 @@
 
 # KartStopper Landing Page
 
-KartStopper is a one-stop solution for buyers looking to make informed choices before shopping their daily needs. It improves spending habits of people.
-
+KartStopper is a one-stop solution for buyers looking to make informed choices before shopping their daily needs. It improves spending habits of people. <br/>
 <picture>
   <source media="(min-width: 1200px)" srcset="content/hero-lg.png">
   <source media="(min-width: 576px)" srcset="content/hero-md.png">
   <img src="content/mockscreen-sm.png" alt="Hero image displaying the app mockup on an iPhone 15 with a red tag image streching across the entire background width.">
-</picture>  
+</picture>
+
+## TODO
+
+Below items are work in progress-
+  - Support page
+  - Footer references(about page, policies, contact)
+  - Number of signups
+
+## Contribution
+
+Contributions are welcome. Please get in touch with @ashish-brahma to discuss further.
+
+## License
+
+Please refer the ![License](LICENSE) for details.
