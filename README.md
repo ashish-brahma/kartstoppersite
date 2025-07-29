@@ -30,4 +30,4 @@ Contributions are welcome. Please get in touch with [@ashish-brahma](https://git
 
 ### License
 
-Please refer [License](LICENSE) for details.
+Please refer [License](https://github.com/ashish-brahma/kartstoppersite/tree/main?tab=MIT-1-ov-file) for details.
