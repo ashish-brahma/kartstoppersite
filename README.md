@@ -15,7 +15,7 @@ KartStopper is a one-stop solution for buyers looking to make informed choices b
 </picture>
 <br/><br/>
 
-## TODO
+### TODO
 
 Below items are work in progress-
   - Support page
@@ -23,11 +23,11 @@ Below items are work in progress-
   - Number of signups
 <br/><br/>
 
-## Contribution
+### Contributing
 
 Contributions are welcome. Please get in touch with [@ashish-brahma](https://github.com/ashish-brahma) to discuss further.
 <br/><br/>
 
-## License
+### License
 
 Please refer [License](LICENSE) for details.
